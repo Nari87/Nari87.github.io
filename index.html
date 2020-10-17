@@ -3,16 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>myPortfolio</title>
-    <script src="script.js"></script>
     <link rel="shortcut icon" href="#">
+    <title>myPortfolio</title>
+    <!-- JavaScript Files -->
+    <script src="script.js"></script>
+    <!-- CSS File -->
     <link rel="stylesheet" href="style.css">
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <!-- Fontawesome Links-->
     <script src="https://kit.fontawesome.com/6ec9109499.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="navbar">
-        <a href="#home">Home</a>
+    <!-- Navbar -->
+    <div class="navbar" id="myNavbar">
+        <a href="#home" class="active">home</a>
+        <a href="#portfolio">portfolio</a>
+        <a href="#programming">programming</a>
+        <a href="#contact">contact</a>
+        <a href="#impressum">impressum</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
+    <a href="/todoList/index.html" target="_blank">A simple Todo List</a>
 </body>
 </html>
