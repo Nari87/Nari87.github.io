@@ -15,7 +15,7 @@ body, html {
 }
 
 .bgimg {
-  background-image: url('/pic/programming2.jpg');
+  background-image: url('/pic/programming.jpg');
   min-height: 100%;
   background-position: center;
   background-size: cover;
