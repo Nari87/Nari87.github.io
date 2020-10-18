@@ -31,23 +31,13 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    //Fades out the infoBox when the x-symbol is clicked
-    document.getElementById('close').addEventListener("click", function(){
-        let fadeTarget = document.getElementById('info');
-        let fadeEffect = setInterval(function () {
-            if (!fadeTarget.style.opacity) {
-                fadeTarget.style.opacity = 0.5;
-            }
-            if (fadeTarget.style.opacity > 0) {
-                fadeTarget.style.opacity -= 0.1;
-            } else {
-                clearInterval(fadeEffect);
-            }
-        }, 50);
-        
-    });
-  
+ 
 
 
 
 });
+
+/*
+<i class="far fa-circle"></i>
+<i class="far fa-check-circle" style="color: green;"></i>
+*/
