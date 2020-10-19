@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function(){
     function addExpense(){
         let description = document.getElementById('description').value;
         let date = document.getElementById('date').value;
-        let amount = parseFloat(document.getElementById('amount').value);
+        let amount = document.getElementById('amount').value;
 
         if(description == "" || date == "" || amount == ""){
             alert("input missing")
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
             descriptionCell.textContent = description;
             dateCell.textContent = date;
-            amountCell.textContent = amount.toFixed(2) + " €";
+            amountCell.textContent = parseFloat(amount).toFixed(2) + " €";
             removeCell.innerHTML = '<i class="fas fa-trash-alt" ></i>';
             amountCell.classList.add("text-right");
             removeCell.classList.add("center");
