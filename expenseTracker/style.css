@@ -38,14 +38,14 @@ h1 {
 
 label {
     display: inline-block;
-    width: 91px;
+    width: 75px;
     text-align: right;
     padding-right: 5px;
     margin-top: 5px;
 }
 
 input {
-    width: 200px;
+    width: 150px;
     margin-top: 5px;
 
 }
