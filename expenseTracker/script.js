@@ -1,5 +1,8 @@
 document.addEventListener('DOMContentLoaded', function(){
 
+    document.getElementById('addButton').addEventListener("click", addExpense);
+    document.getElementById('amount').addEventListener("keypress", pressEnter);
+    
     function addExpense(){
         let description = document.getElementById('description').value;
         let date = document.getElementById('date').value;
@@ -53,8 +56,7 @@ document.addEventListener('DOMContentLoaded', function(){
         }
     }
 
-    document.getElementById('addButton').addEventListener("click", addExpense);
-    document.getElementById('amount').addEventListener("keypress", pressEnter)
+
 
 
 
