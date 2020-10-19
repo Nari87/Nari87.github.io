@@ -6,11 +6,11 @@ input::-webkit-inner-spin-button {
 }
 
 body {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 
 /* Firefox */
 input[type=number] {
@@ -38,14 +38,14 @@ h1 {
 
 label {
     display: inline-block;
-    width: 75px;
+    width: 91px;
     text-align: right;
     padding-right: 5px;
     margin-top: 5px;
 }
 
 input {
-    width: 120px;
+    width: 200px;
     margin-top: 5px;
 
 }
@@ -94,6 +94,7 @@ td {
 
 .text-right {
     text-align: right;
+    padding-right: 10px;
 }
 .center {
     text-align: center;
