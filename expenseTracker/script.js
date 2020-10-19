@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', function(){
             let table = document.getElementById('table');
             let row = table.insertRow();
 
-            let descriptionCell = row.insertCell();
             let dateCell = row.insertCell();
+            let descriptionCell = row.insertCell();
             let amountCell = row.insertCell();
             let removeCell = row.insertCell();
             
@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function(){
             dateCell.textContent = date;
             amountCell.textContent = parseFloat(amount).toFixed(2) + " €";
             removeCell.innerHTML = '<i class="fas fa-trash-alt" ></i>';
+            dateCell.classList.add("center");
             amountCell.classList.add("text-right");
             removeCell.classList.add("center");
 
@@ -42,6 +43,7 @@ document.addEventListener('DOMContentLoaded', function(){
             }
 
             document.getElementById('totalAmount').textContent = "Total Amount: " + ttl.toFixed(2) + " €";
+            document.getElementById('description').focus();
         }
     }
 
