@@ -36,8 +36,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 });
-
-/*
-<i class="far fa-circle"></i>
-<i class="far fa-check-circle" style="color: green;"></i>
-*/
