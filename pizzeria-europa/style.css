@@ -16,7 +16,7 @@ body {
 }
 
 .headgfx {
-    padding-top: 50px;
+    padding-top: 35px;
     background-image: url('pic/restaurant.jpg');
     min-height: 100%;
     background-position: center;
@@ -35,7 +35,7 @@ body {
 
 .gruss {
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 40px;
 }
 
 .ansprache {
@@ -91,5 +91,16 @@ body {
 }
 
 @media only screen and (max-width: 600px){
-    
+
+    .headgfx {
+        height: 200px;
+    }
+
+    .gruss {
+        font-size: 20px;
+    }
+
+    .ansprache {
+        font-size: 14px;
+    }
 }  
