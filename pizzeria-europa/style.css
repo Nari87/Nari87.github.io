@@ -34,14 +34,16 @@ body {
 }
 
 .gruss {
+    font-family: 'Shadows Into Light', cursive;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.7vw;
 }
 
 .ansprache {
-    text-align: center;
-    font-size: 2vw;
-    padding: 0 5vw 2vw 5vw;
+    text-align: justify;
+    font-size: 2.4vw;
+    padding: 0 10vw 10px 10vw;
+    width: 100%;
     
 }
 
@@ -73,12 +75,11 @@ body {
 .maps iframe {
     height: 100%;
     width: 100%;
-  
 }
 
 .dropdown-custom {
-    background-color:rgb(93, 100, 167);
-   
+    background-color:rgb(63, 68, 114);
+    border: 0;
 }
 
 .dropdown-item {
@@ -92,15 +93,5 @@ body {
 
 @media only screen and (max-width: 600px){
 
-    .headgfx {
-        height: 200px;
-    }
 
-    .gruss {
-        font-size: 20px;
-    }
-
-    .ansprache {
-        font-size: 14px;
-    }
 }  
