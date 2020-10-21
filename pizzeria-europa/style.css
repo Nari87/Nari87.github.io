@@ -17,7 +17,7 @@ body {
 
 .headgfx {
     padding-top: 50px;
-    background-image: url('pic/pizza.jpg');
+    background-image: url('pic/restaurant.jpg');
     min-height: 100%;
     background-position: center;
     background-size: cover;
@@ -90,4 +90,6 @@ body {
     background-color: transparent;
 }
 
-  
+@media only screen and (max-width: 600px){
+    
+}  
