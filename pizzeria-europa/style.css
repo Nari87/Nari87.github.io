@@ -76,5 +76,18 @@ body {
   
 }
 
+.dropdown-custom {
+    background-color:rgb(93, 100, 167);
+   
+}
+
+.dropdown-item {
+    color: #9FA2B9;
+}
+
+.dropdown-item:hover {
+    color: #CFD0DC;
+    background-color: transparent;
+}
 
   
