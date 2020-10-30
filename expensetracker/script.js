@@ -24,9 +24,8 @@ document.addEventListener('DOMContentLoaded', function(){
             dateCell.textContent = date;
             amountCell.textContent = parseFloat(amount).toFixed(2) + " €";
             removeCell.innerHTML = '<i class="fas fa-trash-alt" ></i>';
-            dateCell.classList.add("center");
             amountCell.classList.add("text-right");
-            removeCell.classList.add("center");
+            removeCell.classList.add("text-center");
 
             document.getElementById('description').value = "";
             document.getElementById('amount').value = "";
@@ -41,11 +40,11 @@ document.addEventListener('DOMContentLoaded', function(){
             
             let ttl = 0;
 
-            for(let i = 1; i <= table.rows.length-1; i++){
+            for(let i = 0; i <= table.rows.length-1; i++){
                 ttl += parseFloat(table.rows[i].cells[2].textContent);
             }
 
-            document.getElementById('totalAmount').textContent = "Total Amount: " + ttl.toFixed(2) + " €";
+            document.getElementById('totalAmount').textContent = ttl.toFixed(2) + " €";
             document.getElementById('description').focus();
         }
     }
