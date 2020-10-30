@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
     document.getElementById('addButton').addEventListener("click", addExpense);
     document.getElementById('amount').addEventListener("keypress", pressEnter);
-    document.getElementById('mailButton').addEventListener("click", sendMail);
+
 
     function addExpense(){
         let description = document.getElementById('description').value;
@@ -54,20 +54,6 @@ document.addEventListener('DOMContentLoaded', function(){
         if(event.key == "Enter"){
             addExpense();
         }
-    }
-
-    function sendMail(){
-        Email.send({
-            Host : "smtp.gmail.com",
-            Username : "nari.moennig@gmail.com",
-            Password : "DME27683!",
-            To : 'nari.moennig@gmail.com',
-            From : "nari.moennig@gmail.com",
-            Subject : "This is the subject",
-            Body : "And this is the body"
-        }).then(
-          message => alert(message)
-        );
     }
 
     
