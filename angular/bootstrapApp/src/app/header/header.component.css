@@ -1,0 +1,7 @@
+div {
+    background-image: url('/assets/pic/restaurant.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 40vw;
+    max-height: 350px;
+}

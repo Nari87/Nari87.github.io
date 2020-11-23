@@ -1,0 +1,41 @@
+.kontakt {
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.kontakt-icon {
+    font-size: 20px;
+}
+
+.inner {
+    margin-bottom: 30px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+div.gfx {
+    background-image: url("/assets/pic/car.jpg");
+    max-height: 350px;
+    height: 40vw;
+    background-position: center;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 800px){
+    .kontakt {
+        padding: 50px 0;
+        flex-direction: row;
+    }
+
+    .inner {
+        padding: 0 50px;
+    }
+}

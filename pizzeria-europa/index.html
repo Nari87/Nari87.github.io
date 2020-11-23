@@ -41,15 +41,21 @@
             
             <ul class="navbar-nav mr-auto active">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Startseite</a>
+                    <a href="#firstSection" class="nav-link">Startseite</a>
                 </li>
+                <li class="nav-item">
+                    <a href="#secondSection" class="nav-link">Über uns</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Sommergarten</a>
+                </li>   
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Speisekarte
                     </a>
                     <div class="dropdown-menu dropdown-custom" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="#speisekarte">Antipasti / Vorspeisen</a>
-                      <a class="dropdown-item" href="#">Suppen</a>
+                      <a class="dropdown-item" href="#vorspeisenSection">Antipasti / Vorspeisen</a>
+                      <a class="dropdown-item" href="#suppenSection">Suppen</a>
                       <a class="dropdown-item" href="#">Salate</a>
                       <a class="dropdown-item" href="#">Pizza</a>
                       <a class="dropdown-item" href="#">Nudelspezialitäten</a>
@@ -59,18 +65,14 @@
                       <a class="dropdown-item" href="#">Desserts</a>
                     </div>
                   </li>    
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Sommergarten</a>
-                </li>            
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Über uns</a>
-                </li>
+         
+
             </ul>
         </div>
     </nav>
 
     <!--Header Picture-->
-    <div class="headGFX" id="startseite"></div>
+    <div class="headGFX" id="firstSection"></div>
 
     <!--Begrüßung-->
     <div class="greets">
@@ -89,7 +91,7 @@
     </div>
 
     <!-- 2. Bild -->
-    <div class="midGFX"></div>
+    <div class="midGFX" id="secondSection"></div>
 
     <!--Kontaktdaten-->
     <div class="row kontakt">
@@ -128,10 +130,24 @@
     <!--Speisekarte-->
     <h1 id="speisekarte">Speisekarte</h1>
     <!--Vorspeise-->
-    <div class="img-container">
+    <div class="img-container" id="vorspeisenSection">
         <div class="vorspeisen-pic"></div>
         <div class="top-left">Vorspeisen</div>
+        <div class="table" id="vorspeisenListe"></div>
+    </div>
 
+    <!-- Suppen -->
+    <div class="img-container" id="suppenSection">
+        <div class="suppen-pic"></div>
+        <div class="top-left">Suppen</div>
+        <div class="table" id="suppenListe"></div>
+    </div>
+
+    <!-- Pizza -->
+    <div class="img-container" id="pizzaSection">
+        <div class="pizza-pic"></div>
+        <div class="top-left">Pizza</div>
+        <div class="table" id="pizzaListe"></div>
     </div>
 
 

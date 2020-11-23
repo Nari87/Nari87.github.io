@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     border: 0;
@@ -135,6 +138,45 @@ body {
     background-size: cover;
     height: 150px;
     width: 100%;
+}
+
+.suppen-pic {
+    background-image: url('pic/suppen.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+}
+
+.pizza-pic {
+    background-image: url('pic/pizza.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+}
+
+.upperRow {
+    display: flex;
+    padding: 5px 10px 0 10px;
+}
+
+.nameContainer {
+    width: 75%;
+    font-weight: bolder;
+}
+.priceContainer {
+    text-align: right;
+    float: right;
+    width: 25%;
+    padding-right: 10px;
+}
+
+.descriptionContainer {
+    padding: 0 10px;
+    font-size: 10px;
+    font-style: italic;
+
 }
 
 
